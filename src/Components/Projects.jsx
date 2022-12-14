@@ -30,7 +30,7 @@ export default function Projects() {
 
         </div> 
       <div className='text-2xl mt-5'>Self Portfolio</div>
-        <div className='flex flex-col bg-gray-300 max-w-7xl m-12  lg:flex-row p-4 rounded-lg items-center justify-center'>
+        <div className='flex flex-col bg-gray-300 max-w-7xl m-12  lg:flex-row-reverse p-4 rounded-lg items-center justify-center'>
 
             <div className='flex justify-center mx-5 sm:mx-10  '>
                 <img className=''src={portfolio} alt="please reload" />
@@ -48,7 +48,7 @@ export default function Projects() {
 
         </div> 
       <div className='text-2xl'>Color GO</div>
-        <div className='flex flex-col bg-gray-300 max-w-7xl m-12  lg:flex-row-reverse p-4 rounded-lg items-center justify-center'>
+        <div className='flex flex-col bg-gray-300 max-w-7xl m-12  lg:flex-row p-4 rounded-lg items-center justify-center'>
 
             <div className='flex justify-center mx-5 sm:mx-10 '>
                 <img className=''src={colorPicker} alt="please reload"/>
@@ -65,7 +65,7 @@ export default function Projects() {
 
         </div> 
       <div className='text-2xl'>SSGYP</div>
-        <div className='flex flex-col bg-gray-300 max-w-7xl m-12  lg:flex-row p-4 rounded-lg items-center justify-center'>
+        <div className='flex flex-col bg-gray-300 max-w-7xl m-12  lg:flex-row-reverse p-4 rounded-lg items-center justify-center'>
 
             <div className='flex justify-center mx-5 sm:mx-10'>
                 <img className=''src={SSY} alt="please reload" />
